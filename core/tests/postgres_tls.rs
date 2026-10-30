@@ -1,3 +1,4 @@
+#![cfg(feature = "postgres")]
 //! Requires Docker. The public test key/certificates in fixtures are only for this test.
 //! One test keeps DATABASE_URL / SSL_CERT_FILE changes isolated from other cases.
 use rindexer::PostgresClient;
